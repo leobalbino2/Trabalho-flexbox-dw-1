@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: var(--branco);
+  width: 100%;
+  height: 70px;
+}
+
+header li {
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+}
+
+/*_________________________________________________ FLEXBOX  _________________________________________________*/
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.baseline {
+  justify-content: baseline;
+}
+
+/*___________________________________________ CLASSES CUSTOMIZADAS  ___________________________________________*/
+
+.container {
+  margin: 0px 125px;
+}
+
+.container-main {
+  margin: auto;
+}
+
+/*_________________________________________________ HEADER _________________________________________________*/
+
+
+
+/*_________________________________________________ MAIN  _________________________________________________*/
+
+.fundo-imagem {
+  padding: 500px 0px 0px;
+  background-image: url("../img/fundo1.png");
+}
+
+.apresentacao {
+  background-color: var(--branco);
+  height: 400px;
+  width: 100%;
+  margin-top: -350px;
+}
+
+.img {
+    position: relative;
+  width: 500px;
+  margin-top: -350px;
+  left: -350px
+}
+
+#container-botao {
+    width: 100%;
+}
+
+#botao {
+  width: 150px;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#descricao-um {
+    margin-top: 100px;
+}
+
+.sobre {
+    margin: 30px 60px 0 60px;
+}
+
+/*_________________________________________________ FOOTER  _________________________________________________*/
