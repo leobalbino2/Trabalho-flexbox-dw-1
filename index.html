@@ -2,18 +2,20 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>Hanoi</title>
+    <title>HANOI | Início</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/colors.css" />
+    <link rel="stylesheet" href="/javascript/script.js" />
     <style></style>
   </head>
   <body>
     <header>
       <nav class="container flex row center space-between">
-        <a href="index.html"> <div class="logo"><h1>HANOI</h1></div></a>
+        <a href="index.html">
+          <div class="logo"><h1>HANOI</h1></div></a
+        >
         <ul class="flex row">
           <a href="#"><li>Início</li></a>
-          <a href="#"><li>Sobre</li></a>
           <a href="#"><li>Quem Somos</li></a>
           <a href="#"><li>Contato</li></a>
           <a href="#"><li>Login</li></a>
@@ -26,22 +28,107 @@
         <div class="fundo-imagem"></div>
         <div class="flex">
           <div class="apresentacao container">
-            <div id="container-botao" class="flex column">
+            <div id="container-botao" class="flex column center">
               <div id="descricao-um" class="sobre">
-                <h1>Crie já seu questionário de forma totalmente gratuita!</h1>
-              </div>
-              <div id="descricao-dois" class="sobre">
-                <p>
+                <h1>
                   Sua plataforma de Quizzes educacionais de forma rápida e
                   prática.
-                </p>
+                </h1>
+              </div>
+              <div id="descricao-dois" class="sobre">
+                <p>Crie já seu questionário de forma totalmente gratuita!</p>
               </div>
               <a href="#" id="botao" class="sobre">Começar Agora</a>
             </div>
           </div>
-          <img class="img" src="img/equipe.png" alt="equipe" />
+        </div>
+
+        <div id="info1" class="container flex row justify-center">
+          <div class="info grow0">
+            <h2>Interatividade</h2>
+            <hr />
+            <p>
+              Participe de quizzes divertidos e educativos adaptados às suas
+              necessidades de aprendizado.
+            </p>
+          </div>
+          <div class="info grow0">
+            <h2>Criação</h2>
+            <hr />
+            <p>
+              Permita que professores criem quizzes personalizados para seus
+              alunos com facilidade.
+            </p>
+          </div>
+          <div class="info grow0">
+            <h2>Desempenho</h2>
+            <hr />
+            <p>
+              Analise os resultados dos quizzes para monitorar o progresso e
+              identificar áreas para melhoria.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="quem-somos container column center">
+        <div class="quem-sobre">
+          <h3>Quem Somos</h3>
+          <hr />
+          <p id="quem-sobre-p">Este projeto foi desenvolvido por uma equipe de integrantes do curso de Desenvolvimento de Software Multiplataforma da Fatec de Jahu.</p>
+        </div>
+        <div class="devs flex row space-evenly item grow0">
+          <div class="dev">
+            <img class="dev-img" src="img/icon.png" alt="img">
+            <p>Andressa dos Santos Correa</p>
+          </div>
+          <div class="dev">
+            <img class="dev-img" src="img/icon.png" alt="img">
+            <p>Arthur Bello Ghilardi</p>
+          </div>
+          <div class="dev">
+            <img class="dev-img" src="img/icon.png" alt="img">
+            <p>Leonardo Balbino</p>
+          </div>
+          <div class="dev">
+            <img class="dev-img" src="img/icon.png" alt="img">
+           <p>Nicoly Whitehead Maria Bonani</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contato flex row space-between">
+        <div class="contato-info item">
+          <h4>Fale Conosco</h4>
+          <hr />
+          <p>
+            Se você tiver alguma dúvida, sugestão ou precisar de mais
+            informações sobre nossos serviços, entre em contato conosco. <br />
+            Nossa equipe de atendimento está disponível para oferecer suporte.
+          </p>
+        </div>
+        <div class="forms flex column item grow1">
+          <input class="forms-preencher" type="text" placeholder="Seu nome." />
+          <input
+            class="forms-preencher"
+            type="text"
+            placeholder="Insira um email válido."
+          />
+          <input
+            class="forms-preencher"
+            id="assunto"
+            type="text"
+            placeholder="Assunto."
+          />
+          <button class="submit">Enviar</button>
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="rodape flex justify-center">
+        <p>HANOI @ Todos os direitos reservados</p>
+      </div>
+    </footer>
   </body>
 </html>
