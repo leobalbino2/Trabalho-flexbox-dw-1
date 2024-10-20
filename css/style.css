@@ -97,6 +97,8 @@ header li:hover {
 
 /*_________________________________________________ MAIN  _________________________________________________*/
 
+/*__________________________ SECTION INÍCIO  __________________________*/
+
 .fundo-imagem {
   padding: 500px 0px 0px;
   background-image: url("../img/fundo1.png");
@@ -142,9 +144,11 @@ header li:hover {
   text-align: center;
 }
 
-.sobre {
+.ini-sobre {
   margin: 30px 60px 0;
 }
+
+/*__________________________ SECTION SOBRE  __________________________*/
 
 #info1 {
   margin-top: 75px;
@@ -185,7 +189,7 @@ header li:hover {
 }
 
 #quem-sobre-p {
-  padding: 10px 0 50px ;
+  padding: 10px 0 50px;
 }
 
 .quem-sobre hr {
@@ -203,8 +207,8 @@ header li:hover {
 }
 
 .dev-img {
-width: 90px;
-margin-bottom: 20px;
+  width: 90px;
+  margin-bottom: 20px;
 }
 
 /*__________________________ CONTATO  __________________________*/
